@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@opentelemetry/context-zone": "^1.25.1",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.52.1",
+    "@opentelemetry/instrumentation": "^0.52.1",
+    "@opentelemetry/instrumentation-xml-http-request": "^0.52.1",
+    "@opentelemetry/propagator-b3": "^1.25.1",
+    "@opentelemetry/sdk-trace-web": "^1.25.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^3.0.7",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "scripts": {
+    "start": "webpack serve --open"
+  }
+}
